@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pizza Toppings Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Pizza Generator</h1>
+
+    <p>Select your choice of crust</p>
+    <button id="orignal-img" img src="classic.jpg" alt="orignal crust">Classic Hand Tossed</button>
+    <button id="thin-img" img src="thincrust.jpg" alt="thin crust">Thin Crust</button>
+    <button id="pan-img" img src="pancrust.jpg" alt="pan crust">Pan Crust</button>
+    <button id="gf-img" img src="gfcrust.png" alt="gluten-free crust">Gluten-Free</button>
+
+
+    <p>
+        <p>Select the desired toppings for your pizza</p>
+        <select>
+            <option id="mushrooms" value="mushrooms">Mushrooms</option>
+            <option id="peppers" img src="greenPepper.png" alt="green peppers">Green Peppers</option>
+            <option id="onions" img src="onion.png" alt="onions">Onions</option>
+            <option id="olives" img src="olive.png" alt="olives">Olives</option>
+            <option id="pepperoni" img src="pepperoni.png" alt="pepperonis">Pepperoni</option>
+            <option id="sausage" img src="sausage.jpg" alt="sausages">Sausage</option>
+            <option id="pineapples" img src="pineapple.jpg" alt="pineapples">Pineapples</option>
+        </select>
+    </p>
+    <p id="pizza-container">
+        <img src="classic.jpg">
+        <img src="gfcrust.png">
+        <img src="olive.png">
+    </p>
+    <p>
+        <button>Remove Topping</button>
+        <button>Clear All</button>
+    </p>
+
+    <div id="results"></div>
+
+
+
+    <!--Load JavaScript-->
+    <script src="random-library.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

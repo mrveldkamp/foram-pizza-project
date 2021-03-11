@@ -1,0 +1,28 @@
+#container div {
+    width: 48px;
+    height: 48px;
+    border: 1px;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+
+body {
+    text-align: center;
+}
+
+#pizz-container img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+
+#pizza-container {
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    text-align: left;
+}
